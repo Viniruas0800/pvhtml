@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="preload" href="https://zumbido.websit.site/wp-content/uploads/2024/08/bg-pv-mn-scaled-1.webp" as="image">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +21,8 @@
     
     <!-- Carregar o CSS de forma não bloqueante -->
     <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
 </head>
 <body>
 
@@ -27,7 +30,7 @@
     <div class="header-video-container">
 
         <div class="header">
-            <script>
+            <script defer>
                 let xhr = new XMLHttpRequest();
                 xhr.open("GET", "https://ipinfo.io/json");
                 xhr.responseType = "json";
@@ -53,11 +56,11 @@
         <!-- Video de vendas -->
         <div class="video-container">
             <div id="vid_6709d02447e9c3000be0fa9a" style="position:relative;width:100%;padding: 56.25% 0 0;">
-                <img id="thumb_6709d02447e9c3000be0fa9a" src="https://images.converteai.net/c71b99a8-a0b3-4325-aa7f-10d0dcf657f6/players/6709d02447e9c3000be0fa9a/thumbnail.jpg" 
+                <img loading="lazy" id="thumb_6709d02447e9c3000be0fa9a" src="https://images.converteai.net/c71b99a8-a0b3-4325-aa7f-10d0dcf657f6/players/6709d02447e9c3000be0fa9a/thumbnail.jpg" 
                 style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;" width="1920" height="1080" loading="lazy">
                 <div id="backdrop_6709d02447e9c3000be0fa9a" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div>
             </div>
-            <script type="text/javascript" id="scr_6709d02447e9c3000be0fa9a">
+            <script defer type="text/javascript" id="scr_6709d02447e9c3000be0fa9a">
                 var s=document.createElement("script");
                 s.src="https://scripts.converteai.net/c71b99a8-a0b3-4325-aa7f-10d0dcf657f6/players/6709d02447e9c3000be0fa9a/player.js", s.async=!0,document.head.appendChild(s);
             </script>
@@ -78,11 +81,11 @@
     </div>
     
     <div class="media-section">
-        <img src="https://zumbido.websit.site/wp-content/uploads/2024/08/Estamos-en-los-medios.png" alt="Media logos" class="media-logos" loading="lazy" width="700" height="auto">
+        <img loading="lazy" src="https://zumbido.websit.site/wp-content/uploads/2024/08/Estamos-en-los-medios.png" alt="Media logos" class="media-logos" loading="lazy" width="700" height="auto">
     </div>    
     <div class="doctor-section">
         <div class="doctor-image">
-            <img src="https://zumbido.websit.site/wp-content/uploads/2024/08/Bacteria-Neuroinflamatoria-1.png" alt="Dr. Hugo Fernández" loading="lazy" width="400" height="auto">
+            <img loading="lazy" src="https://zumbido.websit.site/wp-content/uploads/2024/08/Bacteria-Neuroinflamatoria-1.png" alt="Dr. Hugo Fernández" loading="lazy" width="400" height="auto">
         </div>
         <div class="doctor-info">
             <h3>Dr. Hugo Fernández</h3>
