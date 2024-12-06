@@ -14,8 +14,8 @@ h2.spin-title {
     line-height: 40px !important;
     color: #0a55a6 !important;
     letter-spacing: 2px;
-    margin-left: 15px; /* Ajuste o valor conforme necessário */
-    margin-right: 15px; /* Ajuste o valor conforme necessário */
+    margin-left: 12px; /* Ajuste o valor conforme necessário */
+    margin-right: 12px; /* Ajuste o valor conforme necessário */
 }
 
 strike {
