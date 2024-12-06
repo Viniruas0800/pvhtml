@@ -11,9 +11,11 @@ h2.spin-title {
     font-style: normal !important;
     font-weight: 700 !important;
     font-size: 29px !important;
-    line-height: 33px !important;
+    line-height: 40px !important;
     color: #0a55a6 !important;
     letter-spacing: 2px;
+    margin-left: 20px; /* Ajuste o valor conforme necessário */
+    margin-right: 20px; /* Ajuste o valor conforme necessário */
 }
 
 strike {
