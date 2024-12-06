@@ -16,7 +16,7 @@ h2.spin-title {
     letter-spacing: 2px;
     margin-left: 13px; /* Ajuste o valor conforme necessário */
     margin-right: 13px; /* Ajuste o valor conforme necessário */
-    letter-spacing: -1px; /* Ajuste o valor para o espaçamento desejado */
+    letter-spacing: -0.7px; /* Ajuste o valor para o espaçamento desejado */
 }
 
 strike {
